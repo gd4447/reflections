@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	The directory becomes a git repo with no commits. This enables "version-control"
+	The hidden file ".git" is created and everything git related happens there.
+
+
