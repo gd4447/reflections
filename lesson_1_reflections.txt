@@ -1,0 +1,42 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+	It saves the time to go through each line and focus only on the areas that have a
+	difference. You still have to find the error, but it is quite helpful.
+	The other benefit is that diff will know if there is more than one difference.
+	With a manual process, you have to do trial and error.
+
+How could having easy access to the entire history of a file make you a more efficient 
+programmer in the long term?
+	
+	By learning about the process. More specifically, going through the history can tell
+	you information about how a file started, what improvements were made over time, what
+	mistakes had to be corrected, etc.
+
+What do you think are the pros and cons of manually choosing when to create a commit, 
+like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+	Pros: more control, more flexibility, more intuitive and informative if done right
+	Cons: prone to user error, needs awareness from user
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, 
+while others, like Google Docs, treat each file separately?
+	
+	Because of dependencies. Since Git was designed with code in mind, it is better if all related
+	components are batched together.
+
+How can you use the commands git log and git diff to view the history of files?
+	
+	log: to see all commits that have been made, when, and by who 
+	diff: to see "how much" changed, and what changed between 2 commitsq
+
+How might using version control make you more confident to make changes that could break something?
+
+	You can always go back and fix them! Using checkout and diff enables you to find where and when 
+	the change that broke something occurred.
+	Also you can check out branches and work on/explore them independently.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+	Start getting used to the commands and getting comfortable with all the processes.
+	Get my portfolio organized and on GitHub
