@@ -3,4 +3,24 @@ What happens when you initialize a repository? Why do you need to do it?
 	The directory becomes a git repo with no commits. This enables "version-control"
 	The hidden file ".git" is created and everything git related happens there.
 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	The staging area acts like a gatekeeper for what makes it from wd to repo. It allows you more control exactly 
+	what changes should be committed. MOre specifically, it allows individual files to be both included or 
+	excluded from next commit
+
+How can you use the staging area to make sure you have one commit per logical change?
+	
+	Manage the files in the staging area until the logical change is complete before committing.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	* Trying out an experimental feature without affecting the working version
+	* Start work on a different version of the project, while preserving same code base.
+	* Isolate your work when working with other people.
+
+	Branches allow me to make changes without worrying of breaking the main code base.
+
+
+
 
